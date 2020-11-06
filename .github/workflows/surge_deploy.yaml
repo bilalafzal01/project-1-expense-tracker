@@ -18,4 +18,4 @@ jobs:
       - name: Setup Surge
         run: npm install --global surge
       - name: Execute deployment with surge
-        run: surge ./ ${{secrets.surge_domain}}  --token ${{secrets.project001_surge_token}}
+        run: surge ./ ${{secrets.surge_domain}}  --token ${{secrets.surge_token}}
